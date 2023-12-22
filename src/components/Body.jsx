@@ -9,28 +9,20 @@ class Body extends Component {
         <div className="d-flex justify-content-between">
           <div className="d-flex">
             <h2 className="mb-4 text-white">TV Shows</h2>
-            <Dropdown style={{ backgroundColor: "#221f1f", borderRadius: "10px" }}>
+            <Dropdown style={{ borderRadius: "10px" }}>
               <Dropdown.Toggle
                 className="btn btn-secondary btn-sm dropdown-toggle rounded-0 m-2"
                 type="button"
                 id="dropdownMenuButton"
                 data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
                 style={{ backgroundColor: "#221f1f", borderRadius: "10px" }}
               >
                 Genres
               </Dropdown.Toggle>
               <Dropdown.Menu style={{ backgroundColor: "#221f1f", borderRadius: "10px" }}>
-                <Dropdown.Item className="dropdown-item text-white bg-dark" href="#">
-                  Comedy
-                </Dropdown.Item>
-                <Dropdown.Item className="dropdown-item text-white bg-dark" href="#">
-                  Drama
-                </Dropdown.Item>
-                <Dropdown.Item className="dropdown-item text-white bg-dark" href="#">
-                  Thriller
-                </Dropdown.Item>
+                <Dropdown.Item className="dropdown-item text-white bg-dark">Comedy</Dropdown.Item>
+                <Dropdown.Item className="dropdown-item text-white bg-dark">Drama</Dropdown.Item>
+                <Dropdown.Item className="dropdown-item text-white bg-dark">Thriller</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
           </div>
