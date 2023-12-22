@@ -43,10 +43,10 @@ class Body extends Component {
         <MyMoviesCard title={"this"} />
         <h4 className=" text-left text-white">Watch it Again Harry Potter</h4>
         <MyMoviesCard title={"harry potter"} />
-        <h4 className=" text-left text-white">Because you watched You</h4>
-        <MyMoviesCard title={"you"} />
+        <h4 className=" text-left text-white">Because you watched The Ranch</h4>
+        <MyMoviesCard title={"ranch"} />
         <h4 className=" text-left text-white">Titles you can't miss</h4>
-        <MyMoviesCard title={"game"} />
+        <MyMoviesCard title={"coach"} />
         <h4 className=" text-left text-white">If you feel Melancholic</h4>
         <MyMoviesCard title={"old"} />
       </div>
