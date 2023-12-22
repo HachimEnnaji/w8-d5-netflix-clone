@@ -19,6 +19,7 @@ class MyMoviesCard extends Component {
       if (response.ok) {
         let data = await response.json();
         let Title = {};
+        console.log(data);
         data.Search.forEach((movie) => {
           Title[movie.imdbID] = false;
           console.log("this one " + Title[movie.imdbID]);
@@ -52,7 +53,7 @@ class MyMoviesCard extends Component {
           {this.state.loading && <Loading />}
           {this.state.error && <OnLoadError />}
           <Container fluid>
-            <Row xs={1} sm={2} md={3} lg={6}>
+            <Row xs={1} sm={2} md={3} lg={4} xxl={6}>
               {this.state.query
                 .filter((movie) => movie.Year > "2000")
                 .slice(0, 6)
